@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032567744121",
+    "project_id": "snoople-5c196",
+    "storage_bucket": "snoople-5c196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032567744121:android:46ef59ea085075fcfa16a8",
+        "android_client_info": {
+          "package_name": "com.example.snoople"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032567744121-sbqrj2b90uhm90d8cjkd6t5jaiu7egvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBER8zppky6bqQHt0xGOSFmfWwh12T8_jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032567744121-sbqrj2b90uhm90d8cjkd6t5jaiu7egvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
