@@ -68,6 +68,7 @@ class Hotel_detail extends StatelessWidget {
                         ),
                       );
                     },
+
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
                         vertical: 90,
