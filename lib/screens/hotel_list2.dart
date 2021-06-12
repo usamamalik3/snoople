@@ -33,18 +33,17 @@ class _Hotel2State extends State<Hotel2> {
           itemBuilder: (context, index) => Hotel_list2(
                 hotel: products[index],
               )),
-      bottomNavigationBar: GestureDetector(
-        child: Container(
-          padding: EdgeInsets.symmetric(vertical: 5, horizontal: 50),
-          color: Color(0xFF79D6B5),
-          height: 50,
-          width: 60,
-          child: Text(
-            "Next",
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 34.0, fontWeight: FontWeight.w600),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        label: const Text(
+          'Next',
+          style: TextStyle(
+            fontSize: 20,
           ),
         ),
+        backgroundColor: Color(0xFF79D6B5),
       ),
     );
   }
